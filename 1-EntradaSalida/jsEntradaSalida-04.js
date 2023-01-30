@@ -1,9 +1,12 @@
 /* 
-Debemos lograr tomar un dato por 'PROMPT' 
-y lo muestro por 'ID' al presionar el botón 'mostrar'
+Nombre: Iván sacks
+Ej: E/S 04
 */
 function mostrar()
 {
-	alert("ok");
+	var nombreIngresado
+	 nombreIngresado = prompt("Ingrese su nombre");
+	document.getElementById("txtIdNombre").value = nombreIngresado
+	
 }
 
