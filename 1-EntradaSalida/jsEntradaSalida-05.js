@@ -8,6 +8,6 @@ function mostrar()
 	var edad;
 	nombre = document.getElementById("txtIdNombre").value;
 	edad = document.getElementById("txtIdEdad").value;
-	alert("Usted es " + nombre + " y tiene " + edad + " Años")
-}
+	alert("Usted es " + nombre + " y tiene " + edad + " Años");
+};
 

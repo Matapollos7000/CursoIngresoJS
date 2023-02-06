@@ -1,6 +1,21 @@
+// E/S: 3 Iván Sacks
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	var edad;
+	
+	edad = document.getElementById("txtIdEdad").value;
 
-}//FIN DE LA FUNCIÓN
+	if(edad >= 18)
+	{
+		alert("Eres mayor de edad");
+	
+	}
+	else
+	{
+		alert("Eres menor de edad");
+
+	}
+	
+		
+
+}

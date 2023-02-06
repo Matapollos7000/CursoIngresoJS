@@ -1,6 +1,15 @@
+// E/S: 1 Iván Sacks
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	var edad;
 
-}//FIN DE LA FUNCIÓN
+	edad = document.getElementById("txtIdEdad").value;
+
+	if(edad == 15)
+	{
+		alert("Niña bonita");
+	}
+	  
+	
+
+}

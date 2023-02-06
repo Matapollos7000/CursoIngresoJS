@@ -10,10 +10,10 @@ num1 = document.getElementById("txtIdNumeroUno").value;
 num2 = document.getElementById("txtIdNumeroDos").value;
 num1 = parseInt(num1);
 num2 = parseInt(num2);
-var total
+var total;
 total = num1 + num2;
 	alert("Tu número es : " + total);
-}
+};
 	
 
 
