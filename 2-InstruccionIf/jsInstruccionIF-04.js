@@ -1,4 +1,4 @@
-// E/S: 4 Iván Sacks 
+// IF: 4 Iván Sacks 
 function mostrar()
 {
 	

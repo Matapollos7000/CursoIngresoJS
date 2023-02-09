@@ -1,4 +1,4 @@
-// E/S: 3 Iván Sacks
+// IF: 3 Iván Sacks
 function mostrar()
 {
 	var edad;

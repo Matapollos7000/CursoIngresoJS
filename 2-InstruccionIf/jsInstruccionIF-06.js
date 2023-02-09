@@ -1,28 +1,32 @@
-// E/S: 6 Iván Sacks (No entregado) txtIdEdad
+// IF: 6 Iván Sacks 
 function mostrar()
 {
 	var edad;
+	var mensaje; 
 
-	edad = document.getElementById("txtIdEdad").value;
+	edad = parseInt(document.getElementById("txtIdEdad").value);
 
-	if(edad < 18)
+	if(edad > 12)
 	{
-		if(edad < 13)
+		if(edad > 69)
 		{
-			alert("Eres un niño");
+			mensaje = ("Eres un viejo");
 		}
 		else
 		{
-			alert("Eres un adolescente");
-
-		}
+			if(edad < 18)
+			{
+				mensaje = ("Eres un adolescente");
+			}
+			else 
+			{
+				mensaje = ("Eres mayor");
+			}	
+		}	
 	}
 	else
 	{
-		alert("Eres mayor de edad");
+		mensaje = ("Eres un niño");
 	}
-	
-
-
-
+	alert(mensaje);
 }
